@@ -1165,7 +1165,6 @@
 					8354EFC11F22491C00C05156 = {
 						CreatedOnToolsVersion = 8.3.3;
 						LastSwiftMigration = 1540;
-						ProvisioningStyle = Automatic;
 					};
 					8354EFCA1F22491C00C05156 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -1973,6 +1972,8 @@
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CODE_SIGN_IDENTITY = "";
+                                CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				DEFINES_MODULE = NO;
 				DYLIB_COMPATIBILITY_VERSION = 9.0.0;
 				DYLIB_CURRENT_VERSION = 9.13.0;
@@ -1985,6 +1986,7 @@
 				MODULEMAP_FILE = "$(PROJECT_DIR)/Framework/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.launchdarkly.Darkly;
 				PRODUCT_NAME = LaunchDarkly;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1996,6 +1998,7 @@
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = NO;
 				DYLIB_COMPATIBILITY_VERSION = 9.0.0;
 				DYLIB_CURRENT_VERSION = 9.13.0;
@@ -2008,6 +2011,7 @@
 				MODULEMAP_FILE = "$(PROJECT_DIR)/Framework/module.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = com.launchdarkly.Darkly;
 				PRODUCT_NAME = LaunchDarkly;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
