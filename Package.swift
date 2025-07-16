@@ -32,9 +32,6 @@ let package = Package(
             ],
             path: "LaunchDarkly/LaunchDarkly",
             exclude: ["Support"],
-            resources: [
-                .process("PrivacyInfo.xcprivacy")
-            ]),
         .testTarget(
             name: "LaunchDarklyTests",
             dependencies: [
