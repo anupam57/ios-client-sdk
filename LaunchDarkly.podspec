@@ -29,9 +29,7 @@ Pod::Spec.new do |ld|
   ld.source       = { :git => ld.homepage + '.git', :tag => ld.version}
 
   ld.source_files = "LaunchDarkly/LaunchDarkly/**/*.{h,m,swift}"
-  ld.resource_bundles = {
-    "#{ld.module_name}_Privacy" => 'LaunchDarkly/LaunchDarkly/PrivacyInfo.xcprivacy'
-  }
+  ld.resources = ['LaunchDarkly/LaunchDarkly/PrivacyInfo.xcprivacy']
 
   ld.requires_arc = true
 
