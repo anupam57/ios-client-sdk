@@ -31,7 +31,7 @@ let package = Package(
                 .product(name: "DataCompression", package: "DataCompression")
             ],
             path: "LaunchDarkly/LaunchDarkly",
-            exclude: ["Support"],
+            exclude: ["Support"]),
         .testTarget(
             name: "LaunchDarklyTests",
             dependencies: [
